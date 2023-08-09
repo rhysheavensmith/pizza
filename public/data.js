@@ -1,0 +1,193 @@
+import focacciaImg from "../src/assets/pizzas/focaccia.jpg";
+import margheritaImg from "../src/assets/pizzas/margherita.jpg";
+import spinaciImg from "../src/assets/pizzas/spinaci.jpg";
+import funghiImg from "../src/assets/pizzas/funghi.jpg";
+import salaminoImg from "../src/assets/pizzas/salamino.jpg";
+import prosciuttoImg from "../src/assets/pizzas/prosciutto.jpg";
+
+const pizzaData = [
+  {
+    name: "Focaccia",
+    ingredients: "Bread with italian olive oil and rosemary",
+    price: 6,
+    photoName: focacciaImg,
+    soldOut: false,
+  },
+  {
+    name: "Pizza Margherita",
+    ingredients: "Tomato and mozarella",
+    price: 10,
+    photoName: margheritaImg,
+    soldOut: false,
+  },
+  {
+    name: "Pizza Spinaci",
+    ingredients: "Tomato, mozarella, spinach, and ricotta cheese",
+    price: 12,
+    photoName: spinaciImg,
+    soldOut: false,
+  },
+  {
+    name: "Pizza Funghi",
+    ingredients: "Tomato, mozarella, mushrooms, and onion",
+    price: 12,
+    photoName: funghiImg,
+    soldOut: false,
+  },
+  {
+    name: "Pizza Salamino",
+    ingredients: "Tomato, mozarella, and pepperoni",
+    price: 15,
+    photoName: salaminoImg,
+    soldOut: true,
+  },
+  {
+    name: "Pizza Prosciutto",
+    ingredients: "Tomato, mozarella, ham, aragula, and burrata cheese",
+    price: 18,
+    photoName: prosciuttoImg,
+    soldOut: false,
+  },
+  {
+    name: "Pizza Calabrese",
+    ingredients: "Tomato, mozzarella, spicy salami, and olives",
+    price: 14,
+    photoName: focacciaImg,
+    soldOut: false,
+  },
+  {
+    name: "Pizza Quattro Formaggi",
+    ingredients: "Mozzarella, gorgonzola, parmesan, and ricotta",
+    price: 13,
+    photoName: margheritaImg,
+    soldOut: true,
+  },
+  {
+    name: "Pizza Capricciosa",
+    ingredients: "Tomato, mozzarella, ham, mushrooms, and olives",
+    price: 15,
+    photoName: spinaciImg,
+    soldOut: false,
+  },
+  {
+    name: "Pizza Siciliana",
+    ingredients: "Tomato, mozzarella, anchovies, capers, and olives",
+    price: 14,
+    photoName: funghiImg,
+    soldOut: false,
+  },
+  {
+    name: "Pizza Napoletana",
+    ingredients: "Tomato, mozzarella, anchovies, and oregano",
+    price: 13,
+    photoName: salaminoImg,
+    soldOut: true,
+  },
+  {
+    name: "Pizza Carbonara",
+    ingredients: "Mozzarella, eggs, pancetta, and black pepper",
+    price: 16,
+    photoName: prosciuttoImg,
+    soldOut: false,
+  },
+  {
+    name: "Pizza Frutti di Mare",
+    ingredients: "Tomato, mozzarella, and mixed seafood",
+    price: 17,
+    photoName: focacciaImg,
+    soldOut: false,
+  },
+  {
+    name: "Pizza Ortolana",
+    ingredients: "Tomato, mozzarella, and mixed grilled vegetables",
+    price: 12,
+    photoName: margheritaImg,
+    soldOut: false,
+  },
+  {
+    name: "Pizza Rustica",
+    ingredients: "Tomato, mozzarella, sausage, and potatoes",
+    price: 15,
+    photoName: spinaciImg,
+    soldOut: true,
+  },
+  {
+    name: "Pizza Bianca",
+    ingredients: "Mozzarella, ricotta, and parmesan (no tomato sauce)",
+    price: 14,
+    photoName: funghiImg,
+    soldOut: false,
+  },
+  {
+    name: "Pizza Romana",
+    ingredients: "Tomato, mozzarella, anchovies, capers, and oregano",
+    price: 14,
+    photoName: salaminoImg,
+    soldOut: false,
+  },
+  {
+    name: "Pizza Tropicale",
+    ingredients: "Tomato, mozzarella, ham, and pineapple",
+    price: 15,
+    photoName: prosciuttoImg,
+    soldOut: true,
+  },
+  {
+    name: "Pizza Diavola",
+    ingredients: "Tomato, mozzarella, and spicy salami",
+    price: 15,
+    photoName: focacciaImg,
+    soldOut: false,
+  },
+  {
+    name: "Pizza Pollo",
+    ingredients: "Tomato, mozzarella, and chicken",
+    price: 14,
+    photoName: margheritaImg,
+    soldOut: false,
+  },
+  {
+    name: "Pizza Verdure",
+    ingredients: "Tomato, mozzarella, and mixed vegetables",
+    price: 13,
+    photoName: spinaciImg,
+    soldOut: true,
+  },
+  {
+    name: "Pizza Pesto",
+    ingredients: "Mozzarella, pesto sauce, and sun-dried tomatoes",
+    price: 15,
+    photoName: funghiImg,
+    soldOut: false,
+  },
+  {
+    name: "Pizza Tonno",
+    ingredients: "Tomato, mozzarella, tuna, and onions",
+    price: 14,
+    photoName: salaminoImg,
+    soldOut: false,
+  },
+  {
+    name: "Pizza Gorgonzola",
+    ingredients: "Mozzarella, gorgonzola cheese, and walnuts",
+    price: 16,
+    photoName: prosciuttoImg,
+    soldOut: true,
+  },
+  {
+    name: "Pizza Bufala",
+    ingredients: "Tomato, buffalo mozzarella, and basil",
+    price: 16,
+    photoName: focacciaImg,
+    soldOut: false,
+  },
+  {
+    name: "Pizza Truffle",
+    ingredients: "Mozzarella, truffle oil, and mushrooms",
+    price: 18,
+    photoName: margheritaImg,
+    soldOut: false,
+  },
+];
+
+export default pizzaData;

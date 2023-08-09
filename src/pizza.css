@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,400;0,500;1,300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-family: "Karla", sans-serif;
+  color: #252525;
+  background-color: #ffffd2;
+  min-height: 100vh;
+  padding: 3.2rem;
+}
+
+.title {
+  color: #c70039;
+  font-size: 5rem;
+  border-top: 2px solid #c70039;
+  border-bottom: 2px solid #c70039;
+  display: inline-block;
+  margin-bottom: 30px;
+  font-family: Pacifico, sans-serif;
+}
+
+.pizza-card {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  grid-gap: 50px;
+}
+
+.pizza-card img {
+  width: 150px;
+}
+
+.pizzas {
+  display: flex;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  padding: 2rem;
+}
+
+.pizzas:hover {
+  transform: scale(1.05); /* Slight zoom in effect */
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.pizzas img {
+  margin-right: 12px;
+}
+
+.pizzas h2 {
+  color: gray;
+}
+
+.pizza-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#sold-out {
+  color: #f94c10;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+/* Base styles for the input */
+.search-input {
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 25px; /* Rounded edges */
+  width: 80%; /* Take up 80% of its container's width */
+  max-width: 400px; /* Set a maximum width */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  transition: box-shadow 0.3s ease, transform 0.3s ease; /* Smooth transition for hover effects */
+  outline: none; /* Remove the default outline */
+  margin-bottom: 50px; /* Some vertical spacing */
+  color: #333; /* Dark text color */
+  background-color: #f5f5f5; /* Light background */
+  placeholder-color: #888; /* Lighter color for placeholder text */
+}
+
+/* Hover effect */
+.search-input:hover {
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px); /* Slight lift on hover */
+}
+
+/* Focus effect */
+.search-input:focus {
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+  transform: translateY(-2px); /* Maintain the lift when focused */
+}
+
+/* Placeholder styles */
+.search-input::placeholder {
+  color: #888; /* Lighter color for placeholder text */
+}
+
+.timer {
+  margin: 50px;
+  font-size: 3rem;
+  color: #c70039;
+  letter-spacing: 12px;
+  font-weight: 700;
+  border-top: 2px solid #c70039;
+  border-bottom: 2px solid #c70039;
+  padding: 15px;
+}
