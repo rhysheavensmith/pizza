@@ -39,8 +39,10 @@ export default function App() {
 
         <div className="pizza-card">
           {pizzaData
-            .filter((pizza) =>
-              pizza.name.toLowerCase().includes(search.toLowerCase())
+            .filter(
+              (pizza) =>
+                pizza.name.toLowerCase().includes(search.toLowerCase()) ||
+                pizza.ingredients.toLowerCase().includes(search.toLowerCase())
             )
             .map((pizza) => {
               return (
