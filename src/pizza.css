@@ -14,7 +14,7 @@ body {
   font-family: "Inter", sans-serif;
   font-family: "Karla", sans-serif;
   color: #252525;
-  background-color: #ffffd2;
+  background-color: #f5f5f5;
   min-height: 100vh;
   padding: 3.2rem;
 }
@@ -45,7 +45,7 @@ body {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   cursor: pointer;
   padding: 2rem;
-  background-color: #f5f5f5;
+  background-color: white;
   border-radius: 10px;
 }
 
@@ -92,7 +92,7 @@ body {
   outline: none; /* Remove the default outline */
   margin-bottom: 50px; /* Some vertical spacing */
   color: #333; /* Dark text color */
-  background-color: #f5f5f5; /* Light background */
+  background-color: white; /* Light background */
   placeholder-color: #888; /* Lighter color for placeholder text */
 }
 
